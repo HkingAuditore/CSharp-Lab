@@ -6,7 +6,21 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Console\" />
+    <Compile Remove="Process\Calculator.cs" />
+    <Compile Remove="Process\Game.cs" />
+    <Compile Remove="Process\Player.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="..\MainModule\BasicGame.cs" Link="Module\Base\BasicGame.cs" />
+    <Compile Include="..\MainModule\BasicPlayer.cs" Link="Module\Base\BasicPlayer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Module\Base\" />
+    <Folder Include="Process\" />
+    <Folder Include="View\Console\" />
+    <Folder Include="Controller\" />
   </ItemGroup>
 
 </Project>

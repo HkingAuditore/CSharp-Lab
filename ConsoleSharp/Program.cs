@@ -1,17 +1,16 @@
 ﻿using System;
-using ConsoleSharp.Process;
 
 namespace ConsoleSharp
 {
-
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            Player ezio  = new Player("Ezio",true,200,200);
-            Player arno  = new Player("Arno",true);
+            BasicPlayer ezio = new BasicPlayer("Ezio", true, 200, 200);
+            BasicPlayer arno = new BasicPlayer("Arno", true);
 
-            Game.Fight(ezio, arno);
+            BasicGame.Fight(ezio, arno);
+            Console.ReadLine();
         }
     }
 }

@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\MyCSharp\\Console\\ConsoleSharp\\ConsoleSharp\\ConsoleSharp.csproj",
+      "projectUniqueName": "F:\\MyCSharp\\Console\\ConsoleSharp\\CSharp-Lab\\ConsoleSharp\\ConsoleSharp.csproj",
       "projectName": "ConsoleSharp",
-      "projectPath": "F:\\MyCSharp\\Console\\ConsoleSharp\\ConsoleSharp\\ConsoleSharp.csproj",
+      "projectPath": "F:\\MyCSharp\\Console\\ConsoleSharp\\CSharp-Lab\\ConsoleSharp\\ConsoleSharp.csproj",
       "packagesPath": "C:\\Users\\17885\\.nuget\\packages\\",
-      "outputPath": "F:\\MyCSharp\\Console\\ConsoleSharp\\ConsoleSharp\\obj\\",
+      "outputPath": "F:\\MyCSharp\\Console\\ConsoleSharp\\CSharp-Lab\\ConsoleSharp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
