@@ -13,5 +13,10 @@ namespace WebSharp
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            testText.Text = textBoxTest.Text + " by HkingAuditore";
+        }
     }
 }

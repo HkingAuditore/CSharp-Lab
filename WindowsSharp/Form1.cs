@@ -16,7 +16,12 @@ namespace WindowsSharp
 
         private void button1_Click(object sender, System.EventArgs e)
         {
-            
+            labelText.Text = testText.Text + ".";
+        }
+
+        private void label1_Click(object sender, System.EventArgs e)
+        {
+
         }
     }
 }

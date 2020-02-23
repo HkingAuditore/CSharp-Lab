@@ -89,5 +89,8 @@
     <Folder Include="Controller\" />
     <Folder Include="View\" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Arts\Pictures\二维公民.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
