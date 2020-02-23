@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ConsoleSharp.Module
+﻿namespace ConsoleSharp.Module
 {
-    class Game
+    internal class Game
     {
         private delegate void Deal(Player enemy, int damage);
 

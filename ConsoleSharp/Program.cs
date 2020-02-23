@@ -1,5 +1,5 @@
-﻿using System;
-using ConsoleSharp.Module;
+﻿using ConsoleSharp.Module;
+using System;
 
 namespace ConsoleSharp
 {

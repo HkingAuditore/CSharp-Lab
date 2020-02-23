@@ -1,6 +1,3 @@
-﻿using System;
-
-public class BasicGame
+﻿public class BasicGame
 {
 }
-
