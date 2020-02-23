@@ -1,0 +1,10 @@
+F:\MyCSharp\Console\ConsoleSharp\CSharp-Lab\WindowsSharp\bin\Debug\WindowsSharp.exe.config
+F:\MyCSharp\Console\ConsoleSharp\CSharp-Lab\WindowsSharp\bin\Debug\WindowsSharp.exe
+F:\MyCSharp\Console\ConsoleSharp\CSharp-Lab\WindowsSharp\bin\Debug\WindowsSharp.pdb
+F:\MyCSharp\Console\ConsoleSharp\CSharp-Lab\WindowsSharp\obj\Debug\WindowsSharp.csprojAssemblyReference.cache
+F:\MyCSharp\Console\ConsoleSharp\CSharp-Lab\WindowsSharp\obj\Debug\WindowsSharp.Form1.resources
+F:\MyCSharp\Console\ConsoleSharp\CSharp-Lab\WindowsSharp\obj\Debug\WindowsSharp.Properties.Resources.resources
+F:\MyCSharp\Console\ConsoleSharp\CSharp-Lab\WindowsSharp\obj\Debug\WindowsSharp.csproj.GenerateResource.cache
+F:\MyCSharp\Console\ConsoleSharp\CSharp-Lab\WindowsSharp\obj\Debug\WindowsSharp.csproj.CoreCompileInputs.cache
+F:\MyCSharp\Console\ConsoleSharp\CSharp-Lab\WindowsSharp\obj\Debug\WindowsSharp.exe
+F:\MyCSharp\Console\ConsoleSharp\CSharp-Lab\WindowsSharp\obj\Debug\WindowsSharp.pdb
