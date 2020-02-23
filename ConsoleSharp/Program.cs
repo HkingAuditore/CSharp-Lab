@@ -1,4 +1,5 @@
 ﻿using System;
+using ConsoleSharp.Module;
 
 namespace ConsoleSharp
 {
@@ -6,10 +7,10 @@ namespace ConsoleSharp
     {
         private static void Main(string[] args)
         {
-            BasicPlayer ezio = new BasicPlayer("Ezio", true, 200, 200);
-            BasicPlayer arno = new BasicPlayer("Arno", true);
+            Player ezio = new Player("Ezio", true, 200, 200);
+            Player arno = new Player("Arno", true);
 
-            BasicGame.Fight(ezio, arno);
+            Game.Fight(ezio, arno);
             Console.ReadLine();
         }
     }

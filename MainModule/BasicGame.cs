@@ -2,20 +2,5 @@
 
 public class BasicGame
 {
-    delegate void Deal(BasicPlayer enemy, int damage);
-
-    public static void Fight(BasicPlayer playerFirst, BasicPlayer playerSecond)
-    {
-        BasicPlayer tempPlayer = playerSecond;
-        Deal DealEnemy;
-        do {
-            int damage = playerFirst.Attack(playerSecond);
-            DealEnemy = playerSecond.HP > 0 ? new Deal(playerFirst.AttackShow) : new Deal(playerFirst.KillShow);
-            DealEnemy(playerSecond, damage);
-            playerSecond = playerFirst;
-            playerFirst = tempPlayer;
-            tempPlayer = playerSecond;
-        } while (playerFirst.HP > 0);
-    }
 }
 
