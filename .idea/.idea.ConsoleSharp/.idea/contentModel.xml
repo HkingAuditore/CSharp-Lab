@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\17885\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\17885\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_ConsoleSharp.-678644918.00" t="ExcludeRecursive" />
+    <e p="F:\MyCSharp\Console\ConsoleSharp" t="IncludeFlat">
+      <e p="ConsoleSharp" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Console" t="Include" />
+        <e p="ConsoleSharp.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="ConsoleSharp.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Process" t="Include">
+          <e p="Calculator.cs" t="Include" />
+          <e p="Game.cs" t="Include" />
+          <e p="Player.cs" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="ConsoleSharp.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

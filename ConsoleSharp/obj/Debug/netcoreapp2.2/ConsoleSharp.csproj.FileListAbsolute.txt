@@ -1,0 +1,11 @@
+F:\MyCSharp\Console\ConsoleSharp\ConsoleSharp\bin\Debug\netcoreapp2.2\ConsoleSharp.deps.json
+F:\MyCSharp\Console\ConsoleSharp\ConsoleSharp\bin\Debug\netcoreapp2.2\ConsoleSharp.runtimeconfig.json
+F:\MyCSharp\Console\ConsoleSharp\ConsoleSharp\bin\Debug\netcoreapp2.2\ConsoleSharp.runtimeconfig.dev.json
+F:\MyCSharp\Console\ConsoleSharp\ConsoleSharp\bin\Debug\netcoreapp2.2\ConsoleSharp.dll
+F:\MyCSharp\Console\ConsoleSharp\ConsoleSharp\bin\Debug\netcoreapp2.2\ConsoleSharp.pdb
+F:\MyCSharp\Console\ConsoleSharp\ConsoleSharp\obj\Debug\netcoreapp2.2\ConsoleSharp.csprojAssemblyReference.cache
+F:\MyCSharp\Console\ConsoleSharp\ConsoleSharp\obj\Debug\netcoreapp2.2\ConsoleSharp.csproj.CoreCompileInputs.cache
+F:\MyCSharp\Console\ConsoleSharp\ConsoleSharp\obj\Debug\netcoreapp2.2\ConsoleSharp.AssemblyInfoInputs.cache
+F:\MyCSharp\Console\ConsoleSharp\ConsoleSharp\obj\Debug\netcoreapp2.2\ConsoleSharp.AssemblyInfo.cs
+F:\MyCSharp\Console\ConsoleSharp\ConsoleSharp\obj\Debug\netcoreapp2.2\ConsoleSharp.dll
+F:\MyCSharp\Console\ConsoleSharp\ConsoleSharp\obj\Debug\netcoreapp2.2\ConsoleSharp.pdb

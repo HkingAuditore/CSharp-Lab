@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="026be0dd-fa49-4018-a294-26401a9d4daa" name="默认更改列表" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ConsoleSharp/Process/Calculator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ConsoleSharp/Process/Game.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ConsoleSharp/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ConsoleSharp/Process/Player.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ConsoleSharp/Process/Fight.cs" />
+        <option value="$PROJECT_DIR$/ConsoleSharp/Program.cs" />
+        <option value="$PROJECT_DIR$/ConsoleSharp/Process/Game.cs" />
+        <option value="$PROJECT_DIR$/ConsoleSharp/Process/Player.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XnzNsYxcKIxX8XsIANN5qpewZZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
+  </component>
+  <component name="RunManager">
+    <configuration name="ConsoleSharp" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/ConsoleSharp/ConsoleSharp.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="026be0dd-fa49-4018-a294-26401a9d4daa" name="默认更改列表" comment="" />
+      <created>1581696610627</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581696610627</updated>
+      <workItem from="1581696615852" duration="407000" />
+      <workItem from="1581826553020" duration="353000" />
+      <workItem from="1582114962779" duration="601000" />
+      <workItem from="1582367178890" duration="1242000" />
+      <workItem from="1582385483040" duration="1687000" />
+      <workItem from="1582426874241" duration="3158000" />
+      <workItem from="1582446219023" duration="2877000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="WindowStateProjectService">
+    <state width="1340" height="242" key="GridCell.Tab.0.bottom" timestamp="1582432053382">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="242" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582432053382" />
+    <state width="1340" height="242" key="GridCell.Tab.0.center" timestamp="1582432053382">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="242" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582432053382" />
+    <state width="1340" height="242" key="GridCell.Tab.0.left" timestamp="1582432053382">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="242" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582432053382" />
+    <state width="1340" height="242" key="GridCell.Tab.0.right" timestamp="1582432053382">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="242" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582432053382" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1582427981348">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582427981348" />
+    <state x="623" y="125" width="673" height="789" key="find.popup" timestamp="1582386564778">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="125" width="673" height="789" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582386564778" />
+  </component>
+</project>
