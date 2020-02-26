@@ -90,7 +90,7 @@
     <Folder Include="View\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Arts\Pictures\二维公民.png" />
+    <Content Include="Resource\Pictures\二维公民.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

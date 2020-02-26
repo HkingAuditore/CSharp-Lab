@@ -101,9 +101,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Dreams and Hopes.mp3" />
-    <Content Include="IMG_5284.jpg" />
-    <Content Include="LOGO__B&amp;W.jpg" />
+    <Content Include="CaculatorWeb.aspx" />
+    <Content Include="Resource\Dreams and Hopes.mp3" />
+    <Content Include="Resource\IMG_5284.jpg" />
+    <Content Include="Resource\LOGO__B&amp;W.jpg" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -111,6 +112,8 @@
     <Content Include="Content\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Resource\QQ录屏20200222124032.mp4" />
+    <Content Include="Resource\江泽民怒斥香港记者【高清】【1080P】.mp4" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
@@ -128,6 +131,9 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\MainModule\BasicCaculator.cs">
+      <Link>Module\Base\BasicCaculator.cs</Link>
+    </Compile>
     <Compile Include="..\MainModule\BasicGame.cs">
       <Link>Module\Base\BasicGame.cs</Link>
     </Compile>
@@ -137,10 +143,18 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="CaculatorWeb.aspx.cs">
+      <DependentUpon>CaculatorWeb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CaculatorWeb.aspx.designer.cs">
+      <DependentUpon>CaculatorWeb.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Module\Caculator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Test.aspx.cs">
       <DependentUpon>Test.aspx</DependentUpon>

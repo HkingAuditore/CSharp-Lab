@@ -4,11 +4,11 @@ namespace ConsoleSharp.Module
 {
     internal class Player : BasicPlayer
     {
-        public Player(string name, bool gender, int attack, int defence, int age = _initAge) : base(name, gender, attack, defence, age)
+        public Player(string name, gender gender, int attack, int defence, int age = _initAge) : base(name, gender, attack, defence, age)
         {
         }
 
-        public Player(string name, bool gender, int age = _initAge) : base(name, gender, age)
+        public Player(string name, gender gender, int age = _initAge) : base(name, gender, age)
         {
         }
 
