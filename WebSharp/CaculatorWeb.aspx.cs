@@ -31,15 +31,14 @@ namespace WebSharp
         {
             if (CheckValid(num0) && CheckValid(num1))
             {
-                Caculator caculator;
                 try
                 {
-                    caculator = new Caculator((float) Convert.ToDecimal(num0.Text),
+                    var calculator = new Calculator((float) Convert.ToDecimal(num0.Text),
                         (float) Convert.ToDecimal(num1.Text),
-                        (Caculator.Operate) Convert.ToInt16(OperatorChosen.Text));
-                    Result.Text = caculator.Result.ToString();
+                        (Calculator.Operate) Convert.ToInt16(OperatorChosen.Text));
+                    Result.Text = calculator.Result.ToString();
                 }
-                catch (BasicCaculatorException et)
+                catch (BasicCalculatorException et)
                 {
                     Result.Text = et.Message + "请检查输入。";
                 }

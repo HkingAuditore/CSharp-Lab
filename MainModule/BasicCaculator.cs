@@ -1,11 +1,11 @@
 ﻿using System;
 
-public class BasicCaculatorException : ApplicationException
+public class BasicCalculatorException : ApplicationException
 {
-    public BasicCaculatorException(string message) : base(message) { }
+    public BasicCalculatorException(string message) : base(message) { }
 }
 
-public class BasicCaculator
+public class BasicCalculator
 {
     //整数检查
     private static bool CheckInt(float num)
@@ -32,7 +32,7 @@ public class BasicCaculator
         }
         else
         {
-            BasicCaculatorException e = new BasicCaculatorException("除数为0。");
+            BasicCalculatorException e = new BasicCalculatorException("除数为0。");
             throw e;
         }
 
@@ -43,7 +43,7 @@ public class BasicCaculator
         float result = (float) Math.Pow(num0, num1);
         if (double.IsNaN(result))
         {
-            BasicCaculatorException e = new BasicCaculatorException("存在无法计算的乘方数。");
+            BasicCalculatorException e = new BasicCalculatorException("存在无法计算的乘方数。");
             throw e;
         }
         return result;
@@ -57,7 +57,7 @@ public class BasicCaculator
         }
         else
         {
-            BasicCaculatorException e = new BasicCaculatorException("整除应输入整数。");
+            BasicCalculatorException e = new BasicCalculatorException("整除应输入整数。");
             throw e;
         }
     }
@@ -70,7 +70,7 @@ public class BasicCaculator
         }
         else
         {
-            BasicCaculatorException e = new BasicCaculatorException("取余应输入整数。");
+            BasicCalculatorException e = new BasicCalculatorException("取余应输入整数。");
             throw e;
         }
 
@@ -81,7 +81,7 @@ public class BasicCaculator
         float result = (float)Math.Pow(num0, 1/num1);
         if (double.IsNaN(result))
         {
-            BasicCaculatorException e = new BasicCaculatorException("存在无法计算的开方数。");
+            BasicCalculatorException e = new BasicCalculatorException("存在无法计算的开方数。");
             throw e;
         }
         return result;
