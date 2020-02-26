@@ -131,8 +131,8 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\MainModule\BasicCaculator.cs">
-      <Link>Module\Base\BasicCaculator.cs</Link>
+    <Compile Include="..\MainModule\BasicCalculator.cs">
+      <Link>Module\Base\BasicCalculator.cs</Link>
     </Compile>
     <Compile Include="..\MainModule\BasicGame.cs">
       <Link>Module\Base\BasicGame.cs</Link>
@@ -154,7 +154,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Module\Caculator.cs" />
+    <Compile Include="Module\Calculator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Test.aspx.cs">
       <DependentUpon>Test.aspx</DependentUpon>
