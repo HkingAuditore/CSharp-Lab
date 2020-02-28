@@ -48,7 +48,7 @@ namespace WebSharp.Module
                 input = input.Remove(0, 1);
             }
 
-            if (input.Split('.').Length > 1)
+            if (input.Split('.').Length > 2)
             {
                 BasicCalculatorException e = new BasicCalculatorException("多余一个的小数点！");
                 throw e;
@@ -57,6 +57,7 @@ namespace WebSharp.Module
             {
                 if (!Char.IsNumber(c))
                 {
+                    if(c == '.')continue;
                     BasicCalculatorException e = new BasicCalculatorException("存在非数字！");
                     throw e;
                 }
@@ -68,7 +69,7 @@ namespace WebSharp.Module
         {
             try
             {
-                // IsNum(input);
+                IsNum(input);
                 return (float)Convert.ToDecimal(input);
             }
             catch (BasicCalculatorException e)
