@@ -50,7 +50,7 @@ namespace WebSharp.Module
 
             if (input.Split('.').Length > 2)
             {
-                BasicCalculatorException e = new BasicCalculatorException("多余一个的小数点！");
+                var e = new BasicCalculatorException("多余一个的小数点！");
                 throw e;
             }
             foreach (var c in input)
@@ -58,7 +58,7 @@ namespace WebSharp.Module
                 if (!Char.IsNumber(c))
                 {
                     if(c == '.')continue;
-                    BasicCalculatorException e = new BasicCalculatorException("存在非数字！");
+                    var e = new BasicCalculatorException("存在非数字！");
                     throw e;
                 }
             }
