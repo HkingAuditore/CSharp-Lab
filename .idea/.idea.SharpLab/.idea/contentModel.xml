@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\17885\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\17885\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_SharpLab.1434616879.00" t="ExcludeRecursive" />
+    <e p="F:\MyCSharp\Console\ConsoleSharp\CSharp-Lab" t="IncludeFlat">
+      <e p="ConsoleSharp" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ConsoleSharp.csproj" t="IncludeRecursive" />
+        <e p="Controller" t="Include" />
+        <e p="Module" t="Include">
+          <e p="Base" t="Include" />
+          <e p="Game.cs" t="Include" />
+          <e p="Player.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="ConsoleSharp.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Process" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="View" t="Include">
+          <e p="Console" t="Include" />
+        </e>
+      </e>
+      <e p="MainModule" t="Include">
+        <e p="BasicCalculator.cs" t="Include" />
+        <e p="BasicGame.cs" t="Include" />
+        <e p="BasicPlayer.cs" t="Include" />
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="SharpLab.sln" t="IncludeFlat" />
+      <e p="WebSharp" t="IncludeRecursive">
+        <e p="App_Data" t="Include">
+          <e p="Resource" t="Include" />
+        </e>
+        <e p="App_Start" t="Include">
+          <e p="BundleConfig.cs" t="Include" />
+          <e p="FilterConfig.cs" t="Include" />
+          <e p="RouteConfig.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CaculatorWeb.aspx" t="Include" />
+        <e p="CaculatorWeb.aspx.cs" t="Include" />
+        <e p="CaculatorWeb.aspx.designer.cs" t="Include" />
+        <e p="Content" t="Include">
+          <e p="bootstrap-theme.css" t="Include" />
+          <e p="bootstrap-theme.min.css" t="Include" />
+          <e p="bootstrap.css" t="Include" />
+          <e p="bootstrap.min.css" t="Include" />
+          <e p="Site.css" t="Include" />
+        </e>
+        <e p="Controllers" t="Include">
+          <e p="HomeController.cs" t="Include" />
+        </e>
+        <e p="fonts" t="Include">
+          <e p="glyphicons-halflings-regular.eot" t="Include" />
+          <e p="glyphicons-halflings-regular.svg" t="Include" />
+          <e p="glyphicons-halflings-regular.ttf" t="Include" />
+          <e p="glyphicons-halflings-regular.woff" t="Include" />
+        </e>
+        <e p="Global.asax" t="Include" />
+        <e p="Global.asax.cs" t="Include" />
+        <e p="Models" t="Include" />
+        <e p="Module" t="Include">
+          <e p="Base" t="Include" />
+          <e p="Calculator.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Resource" t="Include">
+          <e p="Dreams and Hopes.mp3" t="Include" />
+          <e p="IMG_5284.jpg" t="Include" />
+          <e p="LOGO__B&amp;W.jpg" t="Include" />
+          <e p="QQ录屏20200222124032.mp4" t="Include" />
+          <e p="江泽民怒斥香港记者【高清】【1080P】.mp4" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="bootstrap.js" t="Include" />
+          <e p="bootstrap.min.js" t="Include" />
+          <e p="jquery-1.10.2.intellisense.js" t="Include" />
+          <e p="jquery-1.10.2.js" t="Include" />
+          <e p="jquery-1.10.2.min.js" t="Include" />
+          <e p="jquery-1.10.2.min.map" t="Include" />
+          <e p="jquery.validate-vsdoc.js" t="Include" />
+          <e p="jquery.validate.js" t="Include" />
+          <e p="jquery.validate.min.js" t="Include" />
+          <e p="jquery.validate.unobtrusive.js" t="Include" />
+          <e p="jquery.validate.unobtrusive.min.js" t="Include" />
+          <e p="modernizr-2.6.2.js" t="Include" />
+        </e>
+        <e p="Test.aspx" t="Include" />
+        <e p="Test.aspx.cs" t="Include" />
+        <e p="Test.aspx.designer.cs" t="Include" />
+        <e p="Views" t="Include">
+          <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Home" t="Include" />
+          <e p="Shared" t="Include">
+            <e p="_Layout.cshtml" t="Include" />
+            <e p="Error.cshtml" t="Include" />
+          </e>
+          <e p="web.config" t="Include" />
+        </e>
+        <e p="web.config" t="Include" />
+        <e p="Web.Debug.config" t="Include" />
+        <e p="Web.Release.config" t="Include" />
+        <e p="WebSharp.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="WindowsSharp" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controller" t="Include" />
+        <e p="Form1.cs" t="Include" />
+        <e p="Form1.Designer.cs" t="Include" />
+        <e p="Form1.resx" t="Include" />
+        <e p="Module" t="Include">
+          <e p="Base" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+          <e p="Settings.Designer.cs" t="Include" />
+          <e p="Settings.settings" t="Include" />
+        </e>
+        <e p="Resource" t="Include">
+          <e p="Pictures" t="Include">
+            <e p="二维公民.png" t="Include" />
+          </e>
+        </e>
+        <e p="View" t="Include" />
+        <e p="WindowsSharp.csproj" t="IncludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>

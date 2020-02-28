@@ -1,13 +1,14 @@
 ﻿using System;
 
-delegate void MyDel();
+internal delegate void MyDel();
 
 public class BasicPlayer
 {
     public enum gender
     {
-        Male,Female
+        Male, Female
     }
+
     public string Name { get; }
     public readonly gender Gender;
     public int Age { get; }
@@ -33,7 +34,6 @@ public class BasicPlayer
 
     public BasicPlayer() : this("None", gender.Male, _initAge, _initValue, _initValue)
     {
-
     }
 
     public BasicPlayer(string name, gender gender, int age = _initValue) : this(name, gender, _initValue, _initValue, age)

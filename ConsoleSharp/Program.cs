@@ -10,7 +10,7 @@ namespace ConsoleSharp
             //输入用户名
             Console.WriteLine("请输入您的名字");
             string userName = Console.ReadLine();
-            Console.WriteLine("您的名字是：\"{0} \"",userName);
+            Console.WriteLine("您的名字是：\"{0} \"", userName);
 
             //模拟战斗
             /**

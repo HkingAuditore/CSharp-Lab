@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "F:\\MyCSharp\\Console\\ConsoleSharp\\ConsoleSharp\\ConsoleSharp.csproj",
+    "projectUniqueName": "F:\\MyCSharp\\Console\\ConsoleSharp\\CSharp-Lab\\ConsoleSharp\\ConsoleSharp.csproj",
     "projectName": "ConsoleSharp",
-    "projectPath": "F:\\MyCSharp\\Console\\ConsoleSharp\\ConsoleSharp\\ConsoleSharp.csproj",
-    "outputPath": "F:\\MyCSharp\\Console\\ConsoleSharp\\ConsoleSharp\\obj\\",
+    "projectPath": "F:\\MyCSharp\\Console\\ConsoleSharp\\CSharp-Lab\\ConsoleSharp\\ConsoleSharp.csproj",
+    "outputPath": "F:\\MyCSharp\\Console\\ConsoleSharp\\CSharp-Lab\\ConsoleSharp\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
