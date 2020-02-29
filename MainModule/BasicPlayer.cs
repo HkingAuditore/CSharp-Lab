@@ -13,6 +13,8 @@ public class BasicPlayer
     public readonly gender Gender;
     public int Age { get; }
     public int HP { get; set; }
+    public int Level { get; private set; }
+    public int Exp { get; private set; }
 
     protected const int _initAge = 18;
     protected int _initHP = 100;
@@ -21,6 +23,10 @@ public class BasicPlayer
     private int _attack;
     private int _defence;
     private float _damageFactor = 0.5f;
+    private int _levelExp = 100;
+
+
+    public event EventHandler LevelUpEvent;
 
     public BasicPlayer(string name, gender gender, int attack, int defence, int age = _initAge)
     {
@@ -30,6 +36,10 @@ public class BasicPlayer
         HP = _initHP;
         _attack = attack;
         _defence = defence;
+        Level = 1;
+        Exp = 0;
+
+        LevelUpEvent += LevelUp;
     }
 
     public BasicPlayer() : this("None", gender.Male, _initAge, _initValue, _initValue)
@@ -48,4 +58,34 @@ public class BasicPlayer
         enemy.HP -= damage;
         return damage;
     }
+
+    protected bool IsLevelUp(BasicPlayer player)
+    {
+        if (this.Exp >= 100)
+        {
+            this.Exp -= 100 ;
+            return true;
+        }
+
+        return false;
+    }
+
+    protected void LevelUp(Object source,EventArgs e)
+    {
+        this.Level++;
+        this._attack = (int)(this._attack * 1.5);
+        this._defence = (int)(this._defence * 1.5);
+    }
+
+    public int AddExp(int exp)
+    {
+        this.Exp += exp;
+        if (IsLevelUp(this))
+        {
+            LevelUpEvent(this, null);
+        }
+
+        return this.Level;
+    }
+
 }

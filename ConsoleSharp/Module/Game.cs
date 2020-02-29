@@ -17,6 +17,8 @@
                 playerFirst = tempPlayer;
                 tempPlayer = playerSecond;
             } while (playerFirst.HP > 0);
+
+            playerSecond.AddExp(1000);
         }
     }
 }

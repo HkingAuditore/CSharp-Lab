@@ -101,7 +101,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\packages\jQuery.1.10.2\Content\Scripts\jquery-1.10.2-vsdoc.js">
+      <Link>Content\jquery-1.10.2-vsdoc.js</Link>
+    </None>
+    <Content Include="..\packages\bootstrap.3.0.0\Content\Scripts\bootstrap.js">
+      <Link>Content\bootstrap.js</Link>
+    </Content>
+    <Content Include="..\packages\bootstrap.3.0.0\Content\Scripts\bootstrap.min.js">
+      <Link>Content\bootstrap.min.js</Link>
+    </Content>
+    <Content Include="..\packages\jQuery.1.10.2\Content\Scripts\jquery-1.10.2.js">
+      <Link>Content\jquery-1.10.2.js</Link>
+    </Content>
+    <Content Include="..\packages\jQuery.1.10.2\Content\Scripts\jquery-1.10.2.min.js">
+      <Link>Content\jquery-1.10.2.min.js</Link>
+    </Content>
     <Content Include="CaculatorWeb.aspx" />
+    <Content Include="Index.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="PlugIns\Validata.aspx" />
     <Content Include="Resource\Dreams and Hopes.mp3" />
     <Content Include="Resource\IMG_5284.jpg" />
     <Content Include="Resource\LOGO__B&amp;W.jpg" />
@@ -113,9 +131,11 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Resource\QQ录屏20200222124032.mp4" />
-    <Content Include="Resource\江泽民怒斥香港记者【高清】【1080P】.mp4" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="..\packages\jQuery.1.10.2\Content\Scripts\jquery-1.10.2.min.map">
+      <Link>Content\jquery-1.10.2.min.map</Link>
+    </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -125,7 +145,6 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Test.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -140,6 +159,9 @@
     <Compile Include="..\MainModule\BasicPlayer.cs">
       <Link>Module\Base\BasicPlayer.cs</Link>
     </Compile>
+    <Compile Include="..\MainModule\BasicUser.cs">
+      <Link>Module\Base\BasicUser.cs</Link>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -151,18 +173,31 @@
       <DependentUpon>CaculatorWeb.aspx</DependentUpon>
     </Compile>
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Module\Calculator.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Test.aspx.cs">
-      <DependentUpon>Test.aspx</DependentUpon>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Test.aspx.designer.cs">
-      <DependentUpon>Test.aspx</DependentUpon>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Module\Calculator.cs" />
+    <Compile Include="Module\User.cs" />
+    <Compile Include="PlugIns\Validata.aspx.cs">
+      <DependentUpon>Validata.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

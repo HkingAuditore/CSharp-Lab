@@ -55,9 +55,9 @@ namespace WebSharp.Module
             }
             foreach (var c in input)
             {
+                if (c == '.') continue;
                 if (!Char.IsNumber(c))
                 {
-                    if(c == '.')continue;
                     var e = new BasicCalculatorException("存在非数字！");
                     throw e;
                 }
