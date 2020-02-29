@@ -6,12 +6,19 @@ namespace WebSharp
 {
     public partial class Login : System.Web.UI.Page
     {
+        private const int Time = 3;
+
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!this.IsPostBack) //首次登录时为false
             {
                 Session["Time"] = "1";
+            }else if (Int32.Parse(Session["Time"].ToString()) >= Time)
+            {
+                LoginButton.Enabled = false;
+                LoginButton.CssClass = "btn-alert";
             }
+
         }
 
         protected void PasswordTextBox_TextChanged(object sender, EventArgs e)
