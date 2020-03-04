@@ -22,5 +22,5 @@ public class BasicUser
     }
 
     //检查密码
-    public bool CheckPassword(string input) => input == _password ? true : false;
+    public bool CheckPassword(string input) => input.ToLower() == _password.ToLower() ? true : false;
 }

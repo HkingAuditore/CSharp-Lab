@@ -1,10 +1,10 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="WebSharp.Index" %>
+﻿<%@ Page Language="FictionC#" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="WebSharp.Index" %>
 
-<!DOCTYPE html>
+<!DOFictionCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="FictionContent-Type" content="text/html; charset=utf-8" />
     <title></title>
 </head>
 <body>
@@ -29,6 +29,14 @@
             </div>
             <div class="col-lg-6">
                 <asp:Label ID="UserGender" runat="server" Text="Label"></asp:Label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                您的登录时间是：
+            </div>
+            <div class="col-lg-6">
+                <asp:Label ID="UserLoginTime" runat="server" Text="Label"></asp:Label>
             </div>
         </div>
     </div>

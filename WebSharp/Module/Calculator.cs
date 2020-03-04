@@ -50,9 +50,10 @@ namespace WebSharp.Module
 
             if (input.Split('.').Length > 2)
             {
-                var e = new BasicCalculatorException("多余一个的小数点！");
+                var e = new BasicCalculatorException("多于一个的小数点！");
                 throw e;
             }
+
             foreach (var c in input)
             {
                 if (c == '.') continue;
@@ -71,10 +72,6 @@ namespace WebSharp.Module
             {
                 IsNum(input);
                 return (float)Convert.ToDecimal(input);
-            }
-            catch (BasicCalculatorException e)
-            {
-                throw e;
             }
             catch (System.FormatException e)
             {

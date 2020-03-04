@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 using WebSharp.Controllers;
 using WebSharp.Module;
 
@@ -7,6 +8,7 @@ namespace WebSharp
     public partial class Login : System.Web.UI.Page
     {
         private const int Time = 3;
+        private StringBuilder _loginInfo  = new StringBuilder("登录时间：");
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -62,10 +64,14 @@ namespace WebSharp
         private void LoginSuccess(object source, LoginArgs e)
         {
             Session["userName"] = e.UserCorrespond.UserName;
-            Result.Text = "用户名是："+e.UserCorrespond.UserName+"，性别是："+e.UserCorrespond.UserGender.ToString();
+            Session["userLoginTime"] = DateTime.Now.ToString();
+            _loginInfo.Append(Session["userLoginTime"]);
+            Result.Text = "用户名是："+e.UserCorrespond.UserName+"，性别是："+e.UserCorrespond.UserGender.ToString() + _loginInfo;
+
             if (CheckIndex.Checked)
-            Response.Redirect("index.aspx");
+                Response.Redirect("index.aspx");
         }
+
         //登陆失败
         private void LoginFailure(object source, LoginArgs e)
         {
