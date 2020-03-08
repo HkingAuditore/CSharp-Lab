@@ -13,13 +13,40 @@ namespace WebSharp {
     public partial class Index {
         
         /// <summary>
-        /// form1 控件。
+        /// Label7 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.Label Label7;
+        
+        /// <summary>
+        /// Avatar 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Image Avatar;
+        
+        /// <summary>
+        /// UserAccount 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label UserAccount;
+        
+        /// <summary>
+        /// UserEmail 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label UserEmail;
         
         /// <summary>
         /// UserName 控件。
@@ -31,6 +58,24 @@ namespace WebSharp {
         protected global::System.Web.UI.WebControls.Label UserName;
         
         /// <summary>
+        /// UserMail 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label UserMail;
+        
+        /// <summary>
+        /// UserPhone 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label UserPhone;
+        
+        /// <summary>
         /// UserGender 控件。
         /// </summary>
         /// <remarks>
@@ -40,12 +85,30 @@ namespace WebSharp {
         protected global::System.Web.UI.WebControls.Label UserGender;
         
         /// <summary>
-        /// UserLoginTime 控件。
+        /// UserHome 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label UserLoginTime;
+        protected global::System.Web.UI.WebControls.Label UserHome;
+        
+        /// <summary>
+        /// UserWeapon 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label UserWeapon;
+        
+        /// <summary>
+        /// Label8 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label8;
     }
 }

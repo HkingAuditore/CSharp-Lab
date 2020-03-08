@@ -135,7 +135,7 @@ class TwoDegreeEquation : Equation,IEquation
     private float FictionC { get; set; }
 
 
-    public TwoDegreeEquation(int degree, params float[] fictions) : base(2, fictions)
+    public TwoDegreeEquation(params float[] fictions) : base(2, fictions)
     {
         FictionA = fictions[0];
         FictionB = fictions[1];
@@ -145,7 +145,7 @@ class TwoDegreeEquation : Equation,IEquation
 
     public List<float> GetRoot()
     {
-        //判别式
+        //判别式你
         float delta = FictionB * FictionB - 4 * FictionA * FictionC;
         //判别式小于零，无解
         if (delta < 0)

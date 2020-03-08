@@ -120,6 +120,8 @@
     <Content Include="Index.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="PlugIns\Validata.aspx" />
+    <Content Include="Register.aspx" />
+    <Content Include="Resource\AM.jpg" />
     <Content Include="Resource\Dreams and Hopes.mp3" />
     <Content Include="Resource\IMG_5284.jpg" />
     <Content Include="Resource\LOGO__B&amp;W.jpg" />
@@ -131,6 +133,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Resource\QQ录屏20200222124032.mp4" />
+    <Content Include="Resource\RDR.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="..\packages\jQuery.1.10.2\Content\Scripts\jquery-1.10.2.min.map">
@@ -174,6 +177,7 @@
     </Compile>
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\RegisterController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -198,6 +202,13 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -219,6 +230,7 @@
   <ItemGroup>
     <Folder Include="App_Data\Resource\" />
     <Folder Include="Models\" />
+    <Folder Include="Users\Avatars\" />
     <Folder Include="Views\Home\" />
   </ItemGroup>
   <PropertyGroup>
