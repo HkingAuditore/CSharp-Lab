@@ -117,6 +117,7 @@
       <Link>Content\jquery-1.10.2.min.js</Link>
     </Content>
     <Content Include="CaculatorWeb.aspx" />
+    <Content Include="Gamble.aspx" />
     <Content Include="Index.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="PlugIns\Validata.aspx" />
@@ -148,6 +149,16 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Users\Avatars\Abigail.jpg" />
+    <Content Include="Users\Avatars\Arthur.jpg" />
+    <Content Include="Users\Avatars\Charles.jpg" />
+    <Content Include="Users\Avatars\Dutch.jpg" />
+    <Content Include="Users\Avatars\Hosea.jpg" />
+    <Content Include="Users\Avatars\Jack.jpg" />
+    <Content Include="Users\Avatars\John.jpg" />
+    <Content Include="Users\Avatars\Mary.jpg" />
+    <Content Include="Users\Avatars\Sadie.jpg" />
+    <Content Include="Users\Avatars\Sean.jpg" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -155,6 +166,9 @@
   <ItemGroup>
     <Compile Include="..\MainModule\BasicCalculator.cs">
       <Link>Module\Base\BasicCalculator.cs</Link>
+    </Compile>
+    <Compile Include="..\MainModule\BasicGamble.cs">
+      <Link>Module\Base\BasicGamble.cs</Link>
     </Compile>
     <Compile Include="..\MainModule\BasicGame.cs">
       <Link>Module\Base\BasicGame.cs</Link>
@@ -164,6 +178,9 @@
     </Compile>
     <Compile Include="..\MainModule\BasicUser.cs">
       <Link>Module\Base\BasicUser.cs</Link>
+    </Compile>
+    <Compile Include="..\MainModule\BasicWeapon.cs">
+      <Link>Module\Base\BasicWeapon.cs</Link>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
@@ -178,6 +195,13 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\RegisterController.cs" />
+    <Compile Include="Gamble.aspx.cs">
+      <DependentUpon>Gamble.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Gamble.aspx.designer.cs">
+      <DependentUpon>Gamble.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -196,6 +220,7 @@
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Module\Calculator.cs" />
+    <Compile Include="Module\Gamble.cs" />
     <Compile Include="Module\User.cs" />
     <Compile Include="PlugIns\Validata.aspx.cs">
       <DependentUpon>Validata.aspx</DependentUpon>
@@ -230,7 +255,6 @@
   <ItemGroup>
     <Folder Include="App_Data\Resource\" />
     <Folder Include="Models\" />
-    <Folder Include="Users\Avatars\" />
     <Folder Include="Views\Home\" />
   </ItemGroup>
   <PropertyGroup>

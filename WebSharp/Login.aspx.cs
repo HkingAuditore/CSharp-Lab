@@ -17,8 +17,8 @@ namespace WebSharp
                 Session["Time"] = "1";
             }else if (Int32.Parse(Session["Time"].ToString()) >= Time)
             {
-                LoginButton.Enabled = false;
-                LoginButton.CssClass = "btn-alert";
+                Confirm.Enabled = false;
+                Confirm.CssClass = "btn-alert";
             }
 
         }
@@ -28,7 +28,7 @@ namespace WebSharp
 
         }
 
-        protected void LoginButton_Click(object sender, EventArgs e)
+        protected void Confirm_OnClick(object sender, EventArgs e)
         {
             
             //验证码检验
@@ -44,7 +44,7 @@ namespace WebSharp
                 //订阅登录结果分支事件
                 LoginController.LoginSuccess += LoginSuccess;
                 LoginController.LoginFailure += LoginFailure;
-                var login = new LoginController(UserNameTextBox.Text, PasswordTextBox.Text);
+                var login = new LoginController(UserID.Text, UserPassword.Text);
             }
             catch (LoginErrorException et)
             {
@@ -52,10 +52,9 @@ namespace WebSharp
                 {
                     Response.Write($"<script>alert('密码错误！这是第{Session["Time"]}次错误！')</script>");
                     Session["Time"] = Int32.Parse(Session["Time"].ToString()) + 1;
-                    PasswordTextBox.Focus();
-                    Result.Text = "登陆失败！";
+                    UserPassword.Focus();
+
                 }
-                Result.Text = et.Message + "请检查输入。";
             }
             
         }
@@ -63,12 +62,9 @@ namespace WebSharp
         //登陆成功
         private void LoginSuccess(object source, LoginArgs e)
         {
-            Session["userName"] = e.UserCorrespond.UserName;
+            Session["userID"] = e.UserCorrespond.UserID;
             Session["userLoginTime"] = DateTime.Now.ToString();
             _loginInfo.Append(Session["userLoginTime"]);
-            Result.Text = "用户名是："+e.UserCorrespond.UserName+"，性别是："+e.UserCorrespond.UserGender.ToString() + _loginInfo;
-
-            if (CheckIndex.Checked)
                 Response.Redirect("index.aspx");
         }
 

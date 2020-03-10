@@ -3,6 +3,33 @@
 <!DOCTYPE html>
 <style>
     .title { color: #4c4228;  }
+    .custom-confirm-btn {
+        background-color: #826936;
+        border: 2px solid #f36c36;
+        border-radius: 30px;
+        color: #ffffff;
+        width: 100%;
+    }
+
+    .custom-confirm-btn:hover {
+        background-color: #f36c36;
+        border-color: #f36c36;
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px 1px rgba(252, 166, 96, 0.897);
+        color: rgb(255, 255, 255) !important;
+    }
+
+    .custom-confirm-btn:focus {
+        background-color: #f36c36;
+        border-color: #f36c36;
+        color: rgb(255, 255, 255);
+    }
+
+    .custom-confirm-btn:active {
+        background-color: #f36c36;
+        border-color: #f36c36;
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px 3px rgba(252, 153, 96, 0.897);
+        color: rgb(255, 255, 255);
+    }
 </style>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -123,9 +150,16 @@
 
                 </div>
             </div>
+            <div class="row" style="text-align: center;padding-left: 40%;padding-right: 40%">
+                <div class="col-lg-12" >
+                    <form id="form1" runat="server">
+                        <asp:Button ID="Button1" runat="server"  CssClass="btn custom-confirm-btn" Text="前往赌场" OnClick="Button1_OnClick"/>
+
+                    </form>
+                </div>
+            </div>
             <div class="row" style="text-align: center">
                 <asp:Label ID="Label8" runat="server" Text="DEAD OR ALIVE" Font-Names="Dirty Headline" Font-Size="50pt" ForeColor="#825E09"></asp:Label>
-                
             </div>
         </div>
     </div>

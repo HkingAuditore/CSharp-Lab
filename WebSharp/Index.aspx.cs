@@ -90,5 +90,10 @@ namespace WebSharp
                 UserPhone.Text = user.UserPhone;
             }
         }
+
+        protected void Button1_OnClick(object sender, EventArgs e)
+        {
+            Response.Redirect("Gamble.aspx");
+        }
     }
 }

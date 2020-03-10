@@ -1,5 +1,7 @@
 ﻿using System;
 
+
+
 //性别
 [Flags]
 public enum Gender : uint
@@ -8,21 +10,7 @@ public enum Gender : uint
     Female = 0x02
 }
 
-//武器
-[Flags]
-public enum Weapon : uint
-{
-    DoubleActionRevolver  = 0x001,
-    SchofieldRevolver     = 0x002,
-    M1899Pistol           = 0x004,
-    MauserPistol          = 0x008,
-    SpringfieldRifle      = 0x010,
-    LancasterRepeater     = 0x020,
-    CarcanoRifle          = 0x040,
-    DoubleBarreledShotgun = 0x080,
-    SawedOffShotgun       = 0x0100,
 
-}
 
 //出生地
 [Flags]
@@ -38,6 +26,13 @@ public enum Home : uint
 
 }
 
+public class BasicUserException : ApplicationException
+{
+    public BasicUserException(string message) : base(message)
+    {
+    }
+}
+
 public class BasicUser
 {
     public string UserID { get; private set; }
@@ -49,9 +44,11 @@ public class BasicUser
     public string UserMail { get; private set; }
     public string UserPhone { get; private set; }
 
+    public float UserMoney { get; set; }
+
     private string _password;
 
-    public BasicUser (string userId,string userName, Gender userGender, string password, Weapon userWeapon, Home userHome, string emailAccount, string userMail, string userPhone)
+    public BasicUser (string userId,string userName, Gender userGender, string password, Weapon userWeapon, Home userHome, string emailAccount, string userMail, string userPhone,float userMoney = 100)
     {
         UserID = userId;
         UserName = userName;
@@ -62,8 +59,16 @@ public class BasicUser
         EmailAccount = emailAccount;
         UserMail = userMail;
         UserPhone = userPhone;
+        UserMoney = userMoney;
     }
 
     //检查密码
     public bool CheckPassword(string input) => input.ToLower() == _password.ToLower();
+
+    //改变金钱
+    public float ChangeMoney(float money)
+    {
+        this.UserMoney += money;
+        return this.UserMoney;
+    }
 }

@@ -2,6 +2,8 @@
 
 internal delegate void MyDel();
 
+
+
 public class BasicPlayer
 {
     public enum gender

@@ -22,22 +22,22 @@ namespace WebSharp {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// UserNameTextBox 控件。
+        /// UserID 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox UserNameTextBox;
+        protected global::System.Web.UI.WebControls.TextBox UserID;
         
         /// <summary>
-        /// PasswordTextBox 控件。
+        /// UserPassword 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox PasswordTextBox;
+        protected global::System.Web.UI.WebControls.TextBox UserPassword;
         
         /// <summary>
         /// txtCaptcha 控件。
@@ -49,30 +49,12 @@ namespace WebSharp {
         protected global::System.Web.UI.WebControls.TextBox txtCaptcha;
         
         /// <summary>
-        /// LoginButton 控件。
+        /// Confirm 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button LoginButton;
-        
-        /// <summary>
-        /// CheckIndex 控件。
-        /// </summary>
-        /// <remarks>
-        /// 自动生成的字段。
-        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CheckIndex;
-        
-        /// <summary>
-        /// Result 控件。
-        /// </summary>
-        /// <remarks>
-        /// 自动生成的字段。
-        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Result;
+        protected global::System.Web.UI.WebControls.Button Confirm;
     }
 }

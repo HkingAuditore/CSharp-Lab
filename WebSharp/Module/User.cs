@@ -12,13 +12,70 @@ namespace WebSharp.Module
         }
 
         // 用户字典
-        private static Dictionary<string, User> _userDictionary = new Dictionary<string, User>()
+
+        public static Dictionary<string, User> UserDictionary { get; } = new Dictionary<string, User>()
         {
-            {"abc",new User("abc","abc",Gender.Male,"123", Weapon.DoubleActionRevolver, Home.SaintDenis, "mail@mail.com","512123","13600000000") },
-            {"HkingAuditore",new User("HkingAuditore","Hking Auditore",Gender.Male,"123", Weapon.CarcanoRifle, Home.Valentine, "mail@mail.com","512123","13600000000") },
-            {"JohnMarston",new User("JohnMarston","John Marston",Gender.Male,"123", Weapon.M1899Pistol, Home.BeecherSHope, "mail@mail.com","512123","13600000000") },
-            {"ArthurMorgan",new User("ArthurMorgan","Arthur Morgan",Gender.Male,"123", Weapon.MauserPistol | Weapon.SpringfieldRifle,Home.BlackWater, "mail@mail.com","512123","13600000000") },
-            {"SadieAdler",new User("SadieAdler","Sadie Adler",Gender.Female,"123", Weapon.SchofieldRevolver,Home.Strawberry, "mail@mail.com","512123","13600000000") }
+            // {
+            //     "abc",
+            //     new User("abc", "abc", Gender.Male, "123", Weapon.DoubleActionRevolver, Home.SaintDenis,
+            //         "mail@mail.com", "512123", "13600000000")
+            // },
+            // {
+            //     "HkingAuditore",
+            //     new User("HkingAuditore", "Hking Auditore", Gender.Male, "123", Weapon.CarcanoRifle, Home.Valentine,
+            //         "mail@mail.com", "512123", "13600000000")
+            // },
+            {
+                "John",
+                new User("John", "John Marston", Gender.Male, "123", Weapon.M1899Pistol, Home.BeecherSHope,
+                    "mail@mail.com", "512123", "13600000000")
+            },
+            {
+                "Arthur",
+                new User("Arthur", "Arthur Morgan", Gender.Male, "123", Weapon.MauserPistol | Weapon.SpringfieldRifle,
+                    Home.BlackWater, "mail@mail.com", "512123", "13600000000")
+            },
+            {
+                "Sadie",
+                new User("Sadie", "Sadie Adler", Gender.Female, "123", Weapon.SchofieldRevolver, Home.Strawberry,
+                    "mail@mail.com", "512123", "13600000000")
+            },
+            {
+                "Abigail",
+                new User("Abigail", "Abigail Roberts", Gender.Female, "123", Weapon.SchofieldRevolver, Home.Strawberry,
+                    "mail@mail.com", "512123", "13600000000")
+            },
+            {
+                "Dutch",
+                new User("Dutch", "Dutch Van Der Linde", Gender.Male, "123", Weapon.SchofieldRevolver, Home.Strawberry,
+                    "mail@mail.com", "512123", "13600000000")
+            },
+            {
+                "Hosea",
+                new User("Hosea", "Hosea Matthews", Gender.Male, "123", Weapon.SchofieldRevolver, Home.Strawberry,
+                    "mail@mail.com", "512123", "13600000000")
+            },
+            {
+                "Charles",
+                new User("Charles", "Charles Smith", Gender.Male, "123", Weapon.SchofieldRevolver, Home.Strawberry,
+                    "mail@mail.com", "512123", "13600000000")
+            },
+            {
+                "Jack",
+                new User("Jack", "Jack Marston", Gender.Male, "123", Weapon.SchofieldRevolver, Home.Strawberry,
+                    "mail@mail.com", "512123", "13600000000")
+            },
+            {
+                "Mary",
+                new User("Mary", "Mary-Beth Gaskill", Gender.Male, "123", Weapon.SchofieldRevolver,
+                    Home.Strawberry,
+                    "mail@mail.com", "512123", "13600000000")
+            },
+            {
+                "Sean",
+                new User("Sean", "Sean Macguire", Gender.Male, "123", Weapon.SchofieldRevolver, Home.Strawberry,
+                    "mail@mail.com", "512123", "13600000000")
+            }
         };
 
 
@@ -26,9 +83,9 @@ namespace WebSharp.Module
         {
             try
             {
-                if (User._userDictionary.ContainsKey(userName))
+                if (User.UserDictionary.ContainsKey(userName))
                 {
-                    return User._userDictionary[userName];
+                    return User.UserDictionary[userName];
                 }
                 else
                 {
@@ -45,7 +102,7 @@ namespace WebSharp.Module
 
         public static void AddUser(User user)
         {
-            _userDictionary.Add(user.UserID,user);
+            UserDictionary.Add(user.UserID,user);
         }
 
     }
