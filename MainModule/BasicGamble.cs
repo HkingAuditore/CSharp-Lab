@@ -134,6 +134,7 @@ public class BasicGamble
                 break;
             }
             DistributeGamblerMoney(winners[i], winnersContribute);
+            winnersContribute -= winners[i].ContributeMoney;
         }
     }
 

@@ -149,6 +149,7 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="ShowArray.aspx" />
     <Content Include="Users\Avatars\Abigail.jpg" />
     <Content Include="Users\Avatars\Arthur.jpg" />
     <Content Include="Users\Avatars\Charles.jpg" />
@@ -195,6 +196,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\RegisterController.cs" />
+    <Compile Include="Controllers\StructShowController.cs" />
     <Compile Include="Gamble.aspx.cs">
       <DependentUpon>Gamble.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -233,6 +235,13 @@
     </Compile>
     <Compile Include="Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShowArray.aspx.cs">
+      <DependentUpon>ShowArray.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowArray.aspx.designer.cs">
+      <DependentUpon>ShowArray.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

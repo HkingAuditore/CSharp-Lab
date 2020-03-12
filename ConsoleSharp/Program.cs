@@ -1,6 +1,7 @@
 ﻿using ConsoleSharp.Module;
 using System;
 using System.Collections;
+using System.Collections.Generic;
 
 namespace ConsoleSharp
 {
@@ -28,8 +29,7 @@ namespace ConsoleSharp
                 if (fixedRate < minRate) actualRate = actualRate / minRate * (1 - minRate) + minRate;
                 Console.WriteLine(actualRate + " : "+ fixedRate);
             }
-
-            Console.ReadLine();
+            
         }
     }
 }
