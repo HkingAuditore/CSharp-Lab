@@ -2,8 +2,6 @@
 
 internal delegate void MyDel();
 
-
-
 public class BasicPlayer
 {
     public enum gender
@@ -54,6 +52,11 @@ public class BasicPlayer
         del();
     }
 
+    /// <summary>
+    /// 攻击
+    /// </summary>
+    /// <param name="enemy"></param>
+    /// <returns></returns>
     public int Attack(BasicPlayer enemy)
     {
         int damage = (int)(Math.Abs(this._attack - enemy._defence) * _damageFactor);
@@ -79,6 +82,11 @@ public class BasicPlayer
         this._defence = (int)(this._defence * 1.5);
     }
 
+    /// <summary>
+    /// 增加经验值
+    /// </summary>
+    /// <param name="exp"></param>
+    /// <returns></returns>
     public int AddExp(int exp)
     {
         this.Exp += exp;
