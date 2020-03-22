@@ -48,7 +48,9 @@
     <title>Red Dead Redemption</title>
 </head>
 <body style="background-image: url(Resource/RDR.jpg); background-attachment: fixed; margin-top: -0.5%;">
+<form id="form2" runat="server">
 <div class="container">
+
     <div class="row" style="margin-top: 10%">
         <div class="container" style="margin-left: 20%; margin-right: 20%;margin-bottom: 5%; background-color: rgb(255, 244, 204); border-radius: 3px; box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 2px 2px 10px 2px rgba(53, 31, 13, 0.897);">
             <div class="row" style="text-align: center">
@@ -150,12 +152,16 @@
 
                 </div>
             </div>
-            <div class="row" style="text-align: center;padding-left: 40%;padding-right: 40%">
-                <div class="col-lg-12" >
-                    <form id="form1" runat="server">
-                        <asp:Button ID="Button1" runat="server"  CssClass="btn custom-confirm-btn" Text="前往赌场" OnClick="Button1_OnClick"/>
+            <div class="row" style="text-align: center;padding-left: 20%;padding-right: 20%">
+                <div class="col-lg-6" >
+                    <asp:Button ID="Button1" runat="server"  CssClass="btn custom-confirm-btn" Text="前往赌场" OnClick="Button1_OnClick"/>
 
-                    </form>
+                </div>
+                <div class="col-lg-6" >
+
+                    <asp:Button ID="Button2" runat="server"  CssClass="btn custom-confirm-btn" Text="前往银行" OnClick="Button2_OnClick"/>
+
+                    
                 </div>
             </div>
             <div class="row" style="text-align: center">
@@ -164,5 +170,6 @@
         </div>
     </div>
 </div>
+</form>
 </body>
 </html>

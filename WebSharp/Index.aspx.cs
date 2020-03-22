@@ -95,5 +95,10 @@ namespace WebSharp
         {
             Response.Redirect("Gamble.aspx");
         }
+
+        protected void Button2_OnClick(object sender, EventArgs e)
+        {
+            Response.Redirect("Bank.aspx");
+        }
     }
 }

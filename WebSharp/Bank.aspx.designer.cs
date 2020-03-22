@@ -10,132 +10,141 @@
 namespace WebSharp {
     
     
-    public partial class Index {
+    public partial class Bank {
         
         /// <summary>
-        /// form2 控件。
+        /// form1 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form2;
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// Label7 控件。
+        /// Label1 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label7;
+        protected global::System.Web.UI.WebControls.Label Label1;
         
         /// <summary>
-        /// Avatar 控件。
+        /// UserCash 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Avatar;
+        protected global::System.Web.UI.WebControls.Label UserCash;
         
         /// <summary>
-        /// UserAccount 控件。
+        /// Place 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label UserAccount;
+        protected global::System.Web.UI.WebControls.DropDownList Place;
         
         /// <summary>
-        /// UserEmail 控件。
+        /// BankAccount 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label UserEmail;
+        protected global::System.Web.UI.WebControls.DropDownList BankAccount;
         
         /// <summary>
-        /// UserName 控件。
+        /// BankBalance 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label UserName;
+        protected global::System.Web.UI.WebControls.Label BankBalance;
         
         /// <summary>
-        /// UserMail 控件。
+        /// OpeningAccount 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label UserMail;
+        protected global::System.Web.UI.WebControls.TextBox OpeningAccount;
         
         /// <summary>
-        /// UserPhone 控件。
+        /// Open 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label UserPhone;
+        protected global::System.Web.UI.WebControls.Button Open;
         
         /// <summary>
-        /// UserGender 控件。
+        /// TransferTarget 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label UserGender;
+        protected global::System.Web.UI.WebControls.DropDownList TransferTarget;
         
         /// <summary>
-        /// UserHome 控件。
+        /// TransferMoney 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label UserHome;
+        protected global::System.Web.UI.WebControls.TextBox TransferMoney;
         
         /// <summary>
-        /// UserWeapon 控件。
+        /// Transfer 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label UserWeapon;
+        protected global::System.Web.UI.WebControls.Button Transfer;
         
         /// <summary>
-        /// Button1 控件。
+        /// DealChoice 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.DropDownList DealChoice;
         
         /// <summary>
-        /// Button2 控件。
+        /// DealMoney 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button2;
+        protected global::System.Web.UI.WebControls.TextBox DealMoney;
         
         /// <summary>
-        /// Label8 控件。
+        /// Deal 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label8;
+        protected global::System.Web.UI.WebControls.Button Deal;
+        
+        /// <summary>
+        /// Back 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Back;
     }
 }

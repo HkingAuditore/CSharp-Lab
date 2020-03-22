@@ -11,6 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSharp", "WebSharp\WebSha
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MainModule", "MainModule", "{A55A5E80-2381-4C78-861B-EB1863531B76}"
 	ProjectSection(SolutionItems) = preProject
+		MainModule\BasicBankAccount.cs = MainModule\BasicBankAccount.cs
 		MainModule\BasicCalculator.cs = MainModule\BasicCalculator.cs
 		MainModule\BasicGamble.cs = MainModule\BasicGamble.cs
 		MainModule\BasicGame.cs = MainModule\BasicGame.cs

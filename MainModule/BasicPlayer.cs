@@ -2,6 +2,14 @@
 
 internal delegate void MyDel();
 
+public class BasicPlayerException : Exception
+{
+    public BasicPlayerException(string msg):base(msg)
+    {
+    }
+
+}
+
 public class BasicPlayer
 {
     public enum gender

@@ -45,10 +45,6 @@ namespace WebSharp
                 }
 
             }
-            
-
-
-
         }
 
         private void PushResult(Module.Gamble lastGamble)

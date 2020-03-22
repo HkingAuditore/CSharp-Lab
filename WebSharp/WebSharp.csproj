@@ -116,6 +116,7 @@
     <Content Include="..\packages\jQuery.1.10.2\Content\Scripts\jquery-1.10.2.min.js">
       <Link>Content\jquery-1.10.2.min.js</Link>
     </Content>
+    <Content Include="Bank.aspx" />
     <Content Include="CaculatorWeb.aspx" />
     <Content Include="Gamble.aspx" />
     <Content Include="Index.aspx" />
@@ -165,6 +166,9 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\MainModule\BasicBankAccount.cs">
+      <Link>Module\Base\BasicBankAccount.cs</Link>
+    </Compile>
     <Compile Include="..\MainModule\BasicCalculator.cs">
       <Link>Module\Base\BasicCalculator.cs</Link>
     </Compile>
@@ -186,6 +190,13 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Bank.aspx.cs">
+      <DependentUpon>Bank.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bank.aspx.designer.cs">
+      <DependentUpon>Bank.aspx</DependentUpon>
+    </Compile>
     <Compile Include="CaculatorWeb.aspx.cs">
       <DependentUpon>CaculatorWeb.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
