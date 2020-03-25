@@ -12,8 +12,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Include="..\MainModule\BasicCalculator.cs" Link="Module\Base\BasicCalculator.cs" />
     <Compile Include="..\MainModule\BasicGame.cs" Link="Module\Base\BasicGame.cs" />
     <Compile Include="..\MainModule\BasicPlayer.cs" Link="Module\Base\BasicPlayer.cs" />
+    <Compile Include="..\MainModule\Expression.cs" Link="Module\Base\Expression.cs" />
   </ItemGroup>
 
   <ItemGroup>

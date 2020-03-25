@@ -28,13 +28,13 @@ public class BasicCalculator
         }
     }
 
-    protected static float Plus(float num0, float num1) => num0 + num1;
+    public static float Plus(float num0, float num1) => num0 + num1;
 
-    protected static float Minus(float num0, float num1) => num0 - num1;
+    public static float Minus(float num0, float num1) => num0 - num1;
 
-    protected static float Multiply(float num0, float num1) => num0 * num1;
+    public static float Multiply(float num0, float num1) => num0 * num1;
 
-    protected static float Divide(float num0, float num1)
+    public static float Divide(float num0, float num1)
     {
         float result;
         if (Math.Abs(num1) > 0.0001)
@@ -43,25 +43,23 @@ public class BasicCalculator
         }
         else
         {
-            BasicCalculatorException e = new BasicCalculatorException("除数为0。");
-            throw e;
+            throw new BasicCalculatorException("除数为0。");
         }
 
         return result;
     }
 
-    protected static float Pow(float num0, float num1)
+    public static float Pow(float num0, float num1)
     {
         float result = (float)Math.Pow(num0, num1);
         if (double.IsNaN(result))
         {
-            BasicCalculatorException e = new BasicCalculatorException("存在无法计算的乘方数。");
-            throw e;
+            throw new BasicCalculatorException("存在无法计算的乘方数。");
         }
         return result;
     }
 
-    protected static float ExactDivide(float num0, float num1)
+    public static float ExactDivide(float num0, float num1)
     {
         if (CheckInt(num0) && CheckInt(num1))
         {
@@ -69,12 +67,11 @@ public class BasicCalculator
         }
         else
         {
-            BasicCalculatorException e = new BasicCalculatorException("整除应输入整数。");
-            throw e;
+            throw new BasicCalculatorException("整除应输入整数。");
         }
     }
 
-    protected static float Remain(float num0, float num1)
+    public static float Remain(float num0, float num1)
     {
         if (CheckInt(num0) && CheckInt(num1))
         {
@@ -82,23 +79,25 @@ public class BasicCalculator
         }
         else
         {
-            BasicCalculatorException e = new BasicCalculatorException("取余应输入整数。");
-            throw e;
+            throw new BasicCalculatorException("取余应输入整数。");
         }
     }
 
-    protected static float Root(float num0, float num1)
+    public static float Root(float num0, float num1)
     {
         float result = (float)Math.Pow(num0, 1 / num1);
         if (double.IsNaN(result))
         {
-            BasicCalculatorException e = new BasicCalculatorException("存在无法计算的开方数。");
-            throw e;
+            throw new BasicCalculatorException("存在无法计算的开方数。");
         }
         return result;
     }
-
+    
 }
+
+
+
+#region 方程
 
 //方程类
 public class Equation : BasicCalculator
@@ -183,3 +182,6 @@ class OneDegreeEquation : Equation,IEquation
     }
 
 }
+
+
+#endregion
