@@ -91,26 +91,33 @@ public class ExpressionOperateNode : ExpressionNode
 public class ExpressionTree : IEnumerable,IEnumerator
 {
     public float Result { get; private set; }
+    public string exp;
 
     private List<ExpressionNode> _numNodes = new List<ExpressionNode>();
     private List<ExpressionNode> _operatorNodes = new List<ExpressionNode>();
 
     private int _position = -1;
-    private string _highLevelOperator = "*/";
-    private string _lowLevelOperator = "+-";
-    private string _bracket = "()";
+    private static string _highLevelOperator = "*/";
+    private static string _lowLevelOperator = "+-";
+    private static string _bracket = "()";
     private ExpressionOperateNode _root;
 
     public ExpressionTree(string expr)
     {
-        _root = GenerateExpressionTree(expr);
-        Calculate();
+        try
+        {
+            exp = expr;
+            _root = GenerateExpressionTree(expr);
+            Calculate();
+        }
+        catch (Exception e)
+        {
+            throw new BasicCalculatorException("输入的表达式有误！");
+        }
+        
     }
 
-    private void Calculate()
-    {
-        Result = _root.GetResult();
-    }
+    private void Calculate() => Result = _root.GetResult();
 
     #region 生成表达式树
 
@@ -141,7 +148,7 @@ public class ExpressionTree : IEnumerable,IEnumerator
                     }
                 }
 
-                if(ForceUp)
+                if(ForceUp && curOperatorNode!=null)
                 {
                     curOperatorNode.Node1 = curLeafNode;
                 }
@@ -201,7 +208,7 @@ public class ExpressionTree : IEnumerable,IEnumerator
 
     private ExpressionOperateNode GetRoot(ExpressionOperateNode node)
     {
-        while (node.HasParent()) node = node.Parent;
+        while (node!=null && node.HasParent()) node = node.Parent;
         return node;
     }
 

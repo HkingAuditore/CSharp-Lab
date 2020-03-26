@@ -22,16 +22,6 @@
         <div class="row" style="margin-top: 2%">
             <div style="text-align: center">
                 <asp:TextBox ID="num0" runat="server" OnTextChanged="CheckInput"></asp:TextBox>
-                <%--<asp:DropDownList ID="OperatorChosen" runat="server" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
-            <asp:ListItem Value="0">+</asp:ListItem>
-            <asp:ListItem Value="1">-</asp:ListItem>
-            <asp:ListItem Value="2">*</asp:ListItem>
-            <asp:ListItem Value="3">÷</asp:ListItem>
-            <asp:ListItem Value="4">乘方</asp:ListItem>
-            <asp:ListItem Value="5">整除</asp:ListItem>
-            <asp:ListItem Value="6">取余</asp:ListItem>
-            <asp:ListItem Value="7">开方</asp:ListItem>
-            </asp:DropDownList>--%>
                 x<sup>2</sup>+
                 <asp:TextBox ID="num1" runat="server" OnTextChanged="CheckInput"></asp:TextBox>
                 x+<asp:TextBox ID="num2" runat="server" OnTextChanged="CheckInput" AutoPostBack="TRUE"></asp:TextBox> =0

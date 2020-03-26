@@ -118,6 +118,7 @@
     </Content>
     <Content Include="Bank.aspx" />
     <Content Include="CaculatorWeb.aspx" />
+    <Content Include="FullCalculator.aspx" />
     <Content Include="Gamble.aspx" />
     <Content Include="Index.aspx" />
     <Content Include="Login.aspx" />
@@ -211,6 +212,13 @@
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\RegisterController.cs" />
     <Compile Include="Controllers\StructShowController.cs" />
+    <Compile Include="FullCalculator.aspx.cs">
+      <DependentUpon>FullCalculator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FullCalculator.aspx.designer.cs">
+      <DependentUpon>FullCalculator.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Gamble.aspx.cs">
       <DependentUpon>Gamble.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
