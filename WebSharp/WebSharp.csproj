@@ -123,6 +123,7 @@
     <Content Include="Index.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="PlugIns\Validata.aspx" />
+    <Content Include="RankingList.aspx" />
     <Content Include="Register.aspx" />
     <Content Include="Resource\AM.jpg" />
     <Content Include="Resource\Dreams and Hopes.mp3" />
@@ -251,6 +252,13 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RankingList.aspx.cs">
+      <DependentUpon>RankingList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RankingList.aspx.designer.cs">
+      <DependentUpon>RankingList.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Register.aspx.cs">
       <DependentUpon>Register.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
