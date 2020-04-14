@@ -1,0 +1,32 @@
+Date : 2020-04-09 12:16:01
+Directory : f:\MyCSharp\Console\ConsoleSharp\CSharp-Lab\MainModule
+Total : 8 files,  753 codes, 81 comments, 181 blanks, all 1015 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| C#       |          8 |        753 |         81 |        181 |      1,015 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                       | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                          |          8 |        753 |         81 |        181 |      1,015 |
++----------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                   | language | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| f:\MyCSharp\Console\ConsoleSharp\CSharp-Lab\MainModule\BasicBankAccount.cs | C#       |         53 |         21 |         17 |         91 |
+| f:\MyCSharp\Console\ConsoleSharp\CSharp-Lab\MainModule\BasicCalculator.cs  | C#       |        146 |         11 |         30 |        187 |
+| f:\MyCSharp\Console\ConsoleSharp\CSharp-Lab\MainModule\BasicGamble.cs      | C#       |        106 |         26 |         31 |        163 |
+| f:\MyCSharp\Console\ConsoleSharp\CSharp-Lab\MainModule\BasicGame.cs        | C#       |          3 |          0 |          0 |          3 |
+| f:\MyCSharp\Console\ConsoleSharp\CSharp-Lab\MainModule\BasicPlayer.cs      | C#       |         79 |         10 |         20 |        109 |
+| f:\MyCSharp\Console\ConsoleSharp\CSharp-Lab\MainModule\BasicUser.cs        | C#       |        111 |         12 |         24 |        147 |
+| f:\MyCSharp\Console\ConsoleSharp\CSharp-Lab\MainModule\BasicWeapon.cs      | C#       |         20 |          1 |          5 |         26 |
+| f:\MyCSharp\Console\ConsoleSharp\CSharp-Lab\MainModule\Expression.cs       | C#       |        235 |          0 |         54 |        289 |
+| Total                                                                      |          |        753 |         81 |        181 |      1,015 |
++----------------------------------------------------------------------------+----------+------------+------------+------------+------------+

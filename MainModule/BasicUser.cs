@@ -25,9 +25,9 @@ public enum Home : uint
     Rhodes       = 0x02 ,
     Valentine    = 0x04 ,
     BlackWater   = 0x08 ,
-    Strawberry   = 0x010,
-    BeecherSHope = 0x020,
-    TheHeartLand = 0x040,
+    Strawberry   = 0x10,
+    BeecherSHope = 0x20,
+    TheHeartLand = 0x40,
 
 }
 

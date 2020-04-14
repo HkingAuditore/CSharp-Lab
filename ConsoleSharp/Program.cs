@@ -2,6 +2,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace ConsoleSharp
 {
@@ -20,19 +21,24 @@ namespace ConsoleSharp
             // Player arno = new Player("Arno", BasicPlayer.gender.Male);
             //
             // Game.Fight(user, arno);
-            while (true)
-            {
-                var exp = Console.ReadLine();
+            // while (true)
+            // {
+            //     var exp = Console.ReadLine();
+            //
+            //     var tree = new ExpressionTree(exp);
+            //     foreach (var node in tree)
+            //     {
+            //         Console.Write(node.ToString());
+            //     }
+            //     Console.WriteLine("");
+            //     Console.WriteLine("结果：");
+            //     Console.WriteLine(tree.Result);
+            // }
 
-                var tree = new ExpressionTree(exp);
-                foreach (var node in tree)
-                {
-                    Console.Write(node.ToString());
-                }
-                Console.WriteLine("");
-                Console.WriteLine("结果：");
-                Console.WriteLine(tree.Result);
-            }
+            int[] arr = new[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 10,11};
+            var count = arr.Count(x => x > 5);
+            Console.WriteLine(count);
+            Console.ReadKey();
 
 
         }
